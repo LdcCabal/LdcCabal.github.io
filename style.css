@@ -19,6 +19,13 @@
 
 /* Estilos generales */
 
+.Typewriter__wrapper{
+  color:#c22c7e;
+}
+.Typewriter__cursor{
+  color:#be00fe;
+}
+
 section {
   display: flex;
   flex-direction: column;
@@ -70,6 +77,7 @@ h2{
   margin: 20px;
   background-color: #e80f88;
   border-color: #e80f88;
+  color: #ebc7e8;
 }
 
 .btn-info:hover{
@@ -400,12 +408,12 @@ footer {
 }
 
 .iconos-redes-sociales a:hover i {
-  color: black;
+  color: #be00fe;
 }
 
 .derechos-de-autor {
   font-size: 15px;
-  color: #aeaeae;
+  color: #ebc7e8;
   padding: 20px;
 }
 
